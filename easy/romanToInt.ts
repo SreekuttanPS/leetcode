@@ -1,5 +1,5 @@
 export function romanToInt(s: string): number {
-  const romanLetters = {
+  const romanLetters: { [key: string]: number } = {
     I: 1,
     V: 5,
     X: 10,
